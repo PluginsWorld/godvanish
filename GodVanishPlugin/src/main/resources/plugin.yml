@@ -1,5 +1,0 @@
-name: God/vanish Plugin
-version: ${project.version}
-main: com.github.ukraine1449.godvanishplugin.Godvanishplugin
-api-version: 1.16
-authors: [ Ukraine1449 ]
