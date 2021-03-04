@@ -1,6 +1,8 @@
 package com.github.ukraine1449.godvanish;
 
+import com.github.ukraine1449.godvanish.Commands.God;
 import com.github.ukraine1449.godvanish.Commands.Vanish;
+import com.github.ukraine1449.godvanish.Events.PlayerJoin;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -12,6 +14,8 @@ public final class Godvanish extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("vanish").setExecutor(new Vanish(this));
+        getServer().getPluginManager().registerEvents(new PlayerJoin(this), this);
+        getCommand("god").setExecutor(new God());
 
 
     }
