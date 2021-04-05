@@ -1,0 +1,12 @@
+name: godvanish
+version: 1.0-SNAPSHOT
+main: com.github.ukraine1449.godvanish.Godvanish
+api-version: 1.16
+authors: [ Ukraine1449 ]
+commands:
+  vanish:
+    description: makes you or another person go into vanish
+    permission: godvanishplugin.vanish
+  god:
+    description: makes you or another person invincible
+    permission: godvanishplugin.god

@@ -1,0 +1,4 @@
+com\github\ukraine1449\godvanish\Commands\God.class
+com\github\ukraine1449\godvanish\Commands\Vanish.class
+com\github\ukraine1449\godvanish\Events\PlayerJoin.class
+com\github\ukraine1449\godvanish\Godvanish.class
